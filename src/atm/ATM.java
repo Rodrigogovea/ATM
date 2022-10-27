@@ -89,9 +89,11 @@ public class ATM
                             else if(aux == 2)
                                 continuar = true;
                             else
-                                System.out.println("-----------------------------");
-                                System.out.println("Opción no disponible, te dejaré continuar!");
-                                System.out.println("-----------------------------");
+                                {
+                                    System.out.println("-----------------------------");
+                                    System.out.println("Opción no disponible, te dejaré continuar!");
+                                    System.out.println("-----------------------------");
+                                }
                             break;
                         default:
                             System.out.println("xxxxxxxxxxxxxxxxxxxxxxxx");
